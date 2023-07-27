@@ -130,7 +130,7 @@ with colT2:
     - We get basic idea about transactions district wide
     """
     )
-# FIGURE2 HIDDEN BARGRAPH
+# FIGURE2 BARGRAPH
 Istates = Transaction_States.sort_values(by=['Total Transactions count'])
 fig = pltexp.bar(Istates, x='State', y='Total Transactions count', title=str(year) + " Quarter-" + str(quarter))
 with st.expander("See Bar graph for the same data"):
@@ -142,7 +142,7 @@ with st.expander("See Bar graph for the same data"):
 st.write('# :green[TRANSACTIONS ANALYSIS :bar_chart:]')
 tab1, tab2, tab3, tab4 = st.tabs(["STATEWISE ANALYSIS", "DISTRICTWISE ANALYSIS", "YEARWISE ANALYSIS", "OVERALL ANALYSIS"])
 
-# T FIGURE1 STATE ANALYSIS
+# FIGURE1 STATE ANALYSIS
 with tab1:
     Transaction = Transaction_df.copy()
     Transaction.drop(
@@ -361,6 +361,7 @@ with tab4:
                 """
             )
 
+# Top ranking of states
 st.write('# :orange[:bulb: KNOW THE TOP:three: STATES ]')
 c1, c2 = st.columns(2)
 with c1:
