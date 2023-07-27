@@ -1,6 +1,6 @@
 # PhonePe-Pulse-DS
 Inroduction
-PhonePe is an Indian digital payments and financial services company headquartered in India. PhonePe was founded in December 2015, by Sameer Nigam, Rahul Chari and Burzin Engineer. The PhonePe app, based on the Unified Payments Interface, went live in August 2016. We ill be dealing with the data of Phonepe transactions and users over the last four years (2018,2019,2020,2021). We aim to collect, clean, organize, store, analyze and visualize the data. 
+PhonePe is an Indian digital payments and financial services company headquartered in India. PhonePe was founded in December 2015, by Sameer Nigam, Rahul Chari and Burzin Engineer. The PhonePe app, based on the Unified Payments Interface, went live in August 2016. We ill be dealing with the data of Phonepe transactions and users over the last five years (2018, 2019, 2020, 2021, 2022). We aim to collect, clean, organize, store, analyze and visualize the data. 
 
 ## 1) Data collection
    I have collected the data from Phonepe pulse github repository. I have cloned the data file and stored in my system as csv file. I have also collected data of longitude and latitude of Indian districts and states for mapping purpose.
